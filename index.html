@@ -306,7 +306,28 @@
             <hr>
 <p>title: html<br>date: 2018-11-04 11:21:00</p>
 <h2 id="tags"><a href="#tags" class="headerlink" title="tags:"></a>tags:</h2><p>1.html 构建框架  标签  元素 属性：<br>2.css 渲染美化<br>3.javescript互动   </p>
-<p>行内组合 span<br>水平线  hr/<br>  注释&lt;!………&gt;<br>空格字符&amp;nbsp<br>预留格式pre<br>超链接 a href=”网址”&gt;文字或图片&lt;/a     “#”虚拟超链接<br>img插入图片（src属性路径（绝对路径，相对路径）加文件名： alt属性）<br>and so on</p>
+<p>行内组合 span<br>水平线  hr/<br>  注释&lt;!………&gt;<br>空格字符&amp;nbsp<br>预留格式pre<br>超链接 a href=”网址”&gt;文字或图片&lt;/a     “#”虚拟超链接<br>img插入图片（src属性路径（绝对路径，相对路径）加文件名： alt属性）&lt;Div</p>
+<p>and so on</p>
+<p>让一个页面过上一定的时间，自动转到另一个页面或者站点去，如：   </p>
+<meta http-equiv="refresh" content="6; url=http://hi.baidu.com/tesalo/">    
+
+<p>进入页面时产生一些特殊效果：</p>
+<p><meta http-equiv="Page-Enter" content="revealTrans(Duration=5.0,Transition=n)"> 其中，n的取值范围为0-23，意义如下：<br>0 矩形缩小 1 矩形扩大 2 圆形缩小<br>3 圆形扩大 4 下到上    </p>
+<p>&lt;meta name=”keywords” content=”网页关键字” /   </p>
+<p>&lt;meta name=”description” content=”网页描述文字” /     </p>
+<p><meta http-equiv="refresh" content="9">   </p>
+<p>&lt;meta http-equiv=”refresh” content=”9”; UPL/&gt;  </p>
+<p>  link rel=”stylesheet”(告诉程序，css）   media=”screen”    media=”print<br>使用 link 元素来指定预加载  </p>
+<p>&lt;link rel=”prefetch” href=”/page2.html” /</p>
+<blockquote>
+<p>脚本:  </p>
+</blockquote>
+<script type="text/javascript">
+document.write("<h1>Hello World!</h1>")
+</script>
+
+<p>document.getElementById(“myID”).innerText = “myValue”;<br>当此脚本运行时，它将找到一个 id 属性值为 myID 的元素，并将该元素的内部文本更改为 myValue<br>当浏览器遇到具有defer属性的脚本时，它会阻止加载和执行脚本，直到HTML文档中的所有元素都已解析为止    </p>
+<p>&lt;head<br>   &lt;script defer src=”simple2.js”  &lt;/script<br>&lt;/head<br>使用 async 属性时，浏览器会异步加载和执行脚本，同时继续解析HTML中的其他元素，包括其他脚本元素。</p>
 
           
         
