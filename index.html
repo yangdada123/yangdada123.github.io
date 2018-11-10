@@ -310,9 +310,9 @@
 <p>HTML 是用来描述网页的一种语言。<br>HTML 指的是超文本标记语言 ,<br>HTML 不是一种编程语言，而是一种标记语言 ,<br>标记语言是一套标记标签 ,<br>HTML 使用标记标签来描述网页.<br>HTML标签是使用尖括号括起来的关键字，通常是成对出现的，一个是开始标签，一个是结束标签。当然，也有例外，例如：”&lt;”hr”&gt;” 用于定义水平线。开始标签和结束标签也被称为开放标签和闭合标签。<br>HTML文档=网页。我们用HTML文档来描述网页，HTML文档包含标签和纯文本，web浏览器用于打开HTML文件并将其以网页的形式展示出来。浏览器不会显示HTML标签，而是使用标签将其解析。<br>怎样制作一个HTML文件呢。首先我们得有&lt;!DOCTYPE”&gt;”,它不是一个HTML标签，他是一种声明，声明该网页是哪种HTML文档。每个HTML文档中都必须添加DOCTYPE声明，并且只能放在第一行。然后我们得有head标签，这是头部，提供了浏览器，搜索引擎所需的信息。有了头部，当然得有身体，身体就是网页的具体内容。我们用body标签来定义。我们可以设置H1~h6级标题。一个页面件建议只有一个h1标题。p定义一个段落，每个段落都会自动换行。当然我们也可以使用br标签在段内进行换行 。<br>a标签定义的是超链接，可以是图片超链接，也可以是文字超链接，也可以用于制作导航栏，完成跳转到其他页面的实现。<br>img标签用于插入图片。他有一个重要属性src=“路径加文件名”，其定义了图片来源。路劲分为相对路径和绝对路径。HTML绝对路径指带域名的文件的完整路径。</p>
 <p>####关于meta标签<br>meta定义许多元数据。每个网页都有字符编码，在HTML5中，我们使用meta的charset属性来确定该网页的字符编码方式，现在我们通常使用UTF-8。<br>在搭建一个网站时，我们需要通过meta的name属性来定义网页的描述，作者，关键字。在我们上网查找网页时我们会根据自己所想查找的内容来访问网页，我们在搜索框里输入的内容就是关键字。<br>meta还有如下功能<br>让一个页面过上一定的时间，自动转到另一个页面或者站点去，如：   </p>
 </blockquote>
-<p><meta http-equiv="refresh" content="6; url=http://hi.baidu.com/tesalo/"><br>进入页面时产生一些特殊效果：</p>
-<p><meta http-equiv="Page-Enter" content="revealTrans(Duration=5.0,Transition=n)"> 其中，n的取值范围为0-23，意义如下：<br>0 矩形缩小 1 矩形扩大 2 圆形缩小<br>3 圆形扩大 4 下到上<br>让网页定时刷新 ，这里我设置的是9秒    </p>
-<p><meta http-equiv="refresh" content="9">    </p>
+<p>&lt;meta http-equiv=”refresh” content=”6; url=<a href="http://hi.baidu.com/tesalo/&quot;" target="_blank" rel="noopener">http://hi.baidu.com/tesalo/&quot;</a> /<br>进入页面时产生一些特殊效果</p>
+<p>&lt;meta http-equiv=”Page-Enter” content= “revealTrans(Duration=5.0,Transition=n)” / 其中，n的取值范围为0-23，意义如下：<br>0 矩形缩小 1 矩形扩大 2 圆形缩小<br>3 圆形扩大 4 下到上<br>让网页定时刷新 ，这里我设置的是9秒    </p>
+<p>&lt;meta http-equiv=”refresh” content=”9”/    </p>
 <h2 id="二：关于CSS"><a href="#二：关于CSS" class="headerlink" title="二：关于CSS"></a>二：关于CSS</h2><blockquote>
 <p>css定义得是网页的样式。css有3种添加方法，行内添加,内嵌样式，单独文本。内嵌样式有几种选择器，id选择器，类选择器，属性选择器。合理地使用选择器可以使你制作网页更规范。</p>
 </blockquote>
